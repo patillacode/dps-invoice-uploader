@@ -77,3 +77,14 @@ Arguments:
   --debug               Enable to print out the response
   --test                To test with a dummy example.
 ```
+
+### Example
+
+```bash
+$ python dps_api.py --test
+
+        URL: https://your.api.server.domain/your/api/server/endpoint
+        Status Code: 200
+        JSON Response: {'ids': [{'id': 25289}], 'repetidas': []}
+
+```
