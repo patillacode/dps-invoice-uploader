@@ -38,7 +38,7 @@ def test():
             'file',
             (
                 'TEST.pdf',
-                open('/Users/dvitto/projects/gaudium-api/TEST.pdf', 'rb'),
+                open('./TEST.pdf', 'rb'),
                 'application/pdf',
             ),
         )
